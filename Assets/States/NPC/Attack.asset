@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbcd2d23e40921e4eb4f5eb6aa2edd66, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  enterAction: {fileID: 11400000, guid: adadec145a0071c4cba3fe6bdf77fb8c, type: 2}
+  actions:
+  - {fileID: 11400000, guid: bacbe335daabf724db84a9c5e08c0a53, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 335fd640d249852418afe925535548ba, type: 2}
+    trueState: {fileID: 11400000, guid: e622fe13121f25a40889c0cde32fb203, type: 2}
+    falseState: {fileID: 11400000}
+    enterAction: {fileID: 11400000, guid: 85250654bb2fa6a48a05d3e55a988e39, type: 2}
+  - decision: {fileID: 11400000, guid: a18225363a9da094f80533892e3a798b, type: 2}
+    trueState: {fileID: 11400000, guid: 7a951b3d526934c489d7f1467a55e316, type: 2}
+    falseState: {fileID: 11400000}
+    enterAction: {fileID: 11400000, guid: 5c4de903ef4bf814cb88de5a4bd3e7ce, type: 2}
